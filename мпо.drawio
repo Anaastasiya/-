@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-24T07:17:03.423Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" etag="tnZzcdX05_F3D3xyQvU_" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-24T09:15:23.308Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" etag="O1nrpW5LewwuVA9lb7-l" version="20.7.4" type="github">
   <diagram id="97Nrrohps93HSM1ZIezM" name="Страница 1">
     <mxGraphModel dx="2214" dy="1965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -178,7 +178,7 @@
             <mxPoint x="100.01999999999998" y="109.99800000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rN79pym6WUAMVs8a9SZX-3" value="&lt;span style=&quot;text-align: left; background-color: rgb(248, 249, 250);&quot;&gt;Наименование &lt;br&gt;населенного пункта&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" parent="limBzkKbLuW3zujK5Wkw-31" vertex="1">
+        <mxCell id="rN79pym6WUAMVs8a9SZX-3" value="&lt;span style=&quot;text-align: left; background-color: rgb(248, 249, 250);&quot;&gt;населенный пункт&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" parent="limBzkKbLuW3zujK5Wkw-31" vertex="1">
           <mxGeometry x="180" y="120" width="130" height="82" as="geometry" />
         </mxCell>
         <mxCell id="rN79pym6WUAMVs8a9SZX-4" value="Наименование" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="rN79pym6WUAMVs8a9SZX-3" vertex="1">
