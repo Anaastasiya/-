@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+   
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <link rel="shortcut icon" href="../static/favicon.ico" type="image/x-icon">
+         <title>Страны</title>
+         <link rel="stylesheet" href="../static/main.css"/>
+     </head>
+    
+<body>
+
+<!-- Header -->
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo">
+                <div id="logo" onclick = "slowScroll('#top')">
+                    <span>RouteCountry</span>
+                </div> 
+           </div>
+
+           <nav class="nav">
+               <a class="nav__link" href= "{{url_for('index') }}">На главную</a>
+               <a class="nav__link" href= "{{url_for('about') }}">Страны</a>
+               <a class="nav__link" href= "{{url_for('routes') }}">Маршруты</a>
+           </nav>
+        </div>
+    </div>
+</header>
+   
+<!-- Intro -->
+<div class="intro">
+    <div class="container">
+    <div class="intro__inner">
+        <h1 class="intro_title">Страны</h1>
+        <div id ="intro_title">
+         <input type="text" id="departurePoint" name="departurePoint" value="Место отправления"><br>
+         <input type="text" id="placeOfArrival" name="placeOfArrival" value="Место прибытия"><br>
+        </div>
+       
+<!--  Триггер/Открытие окна --> 
+       <div id="zatemnenie">
+    <div id="okno">
+        <div class="okno__title">РАСЧЕТ СТОИМОСТИ:</div>
+        <b>Введите количество человек</b>
+      <form name="calculator">
+        Для взрослых <br>
+        <input type="number" id="quantityAdults" name="quantityAdults" value="0"><br>
+        Для детей <br>
+       <input type="number" id="quantityKids" name="quantityKids" value="0"><br>
+       
+     <button type="button" onclick="calculatePrice()">Расчитать</button><br>
+             
+     <div class="okno__text">Стоимость: <b>₽</b></div>
+                 <input type="text"  name="orderTotal" id="orderTotal" ><br>
+            
+         </form>
+      <a href="#" class="close">Закрыть окно</a>
+    </div>
+  </div>
+  <a href="#zatemnenie" button class="btn btn--red" type="button">Поиск</a>
+    </div>
+    </div>
+</div>
+
+<!-- Сountry -->
+<div class="container">
+    <div class="country">
+        <div class="country__item">
+           <!-- <img class="country__icon" src="../static/course-1.png" alt="">-->
+            <h4 class="country__title">Турция</h4>
+            <div class="country__text"> популярный выбор российских и европейских туристов. Здесь доступные цены, отличный сервис и теплое море 6 месяцев в году. Проводить отпуск в этой стране нравится не только поклонникам пляжного отдыха, но и любителям познавательных экскурсий и ночных развлечений. В Турцию особенно хорошо ездить всей семьей, ведь для детей (даже самых маленьких) здесь созданы самые комфортные условия. </div>
+        </div>
+
+        <div class="country__item">
+           <!-- <img class="courses__icon" src="../static/course-2.png" alt="">-->
+            <h4 class="country__title">Египет</h4>
+            <div class="country__text">отличное место для отдыха всей семьёй: можно и в море поплавать, и на древности посмотреть, и на рыбок у коралловых рифов полюбоваться.</div>
+        </div>
+
+        <div class="country__item">
+             <!-- <img class="country__icon" src="../static/course-3.png" alt="">-->
+            <h4 class="country__title">Мальдивы</h4>
+            <div class="country__text">Сюда едут, чтобы отдохнуть и отрешиться от всего мира. Сама природа как нельзя более способствует этому – отели расположены на уединенных островах. Здесь нет шумных тусовок, зато солнца, релакса и шикарного дайвинга – в изобилии. Возможно, кому-то здесь покажется скучно. Но он такой, этот неторопливый и многогранный мальдивский рай.</div>
+        </div>
+
+        
+    </div>    <!-- /.country -->
+</div>   <!-- /.container -->
+
+<!--  Модальное диалоговое окно  -->
+<script src="../static/script.js"></script>
+
+
+
+</div>
+<footer>
+    <div id="social">
+       <a href="https://vk.com" title="Группа ВК" target="_blank"> 
+        <img src="../static/vk.png" alt="ВК" title="ВК"></a>
+       <a href="https://facebook.com" title="Группа facebook"target="_blank">
+        <img src="../static/facebook.png" alt="Facebook" title="Facebook"></a>
+       <a href="https://twitter.com" title="Группа twitter"target="_blank">
+        <img src="../static/twitter.png" alt="Twitter" title="Twitter"></a>
+    </div>
+        <div id="rights">
+            Все права защищены &copy 2021 
+        </div>
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,340 @@
+header #logo {
+    color: rgb(189, 189, 189);
+    cursor: pointer;
+  }
+  header #logo span{
+      font-size: 1.7em;
+      line-height: 45px;
+      margin-left: 40px;
+      font-family: 'Open Sens', sans-serif;
+  }
+body {
+    margin: 0;
+
+    font-family:'Raleway', sans-serif;
+    font-size: 14px;
+    color: #6c7279;
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+p {
+    margin: 0 0 10px;
+}
+
+/* Container
+===================*/
+ .container {
+     width:  100%;
+     max-width: 1170px;
+     margin: 0 auto;
+ }
+
+ /* Container
+===================*/
+ .header {
+     width: 100%;
+     height: 100px;
+
+
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 1000;
+     
+
+ }
+
+ .header__inner {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 35px 0;
+
+     border-bottom: 1px solid #515369;
+ }
+
+ /* Nav
+===================*/
+ .nav {
+     display: flex;
+     font-size: 13px;
+     font-weight: 700;
+     text-transform: uppercase;
+ }
+
+ .nav__link {
+     margin-left: 50px;
+
+     color: #fff;
+     text-decoration: none;
+     opacity: .75;
+
+     transition: oppacity .1s linear;
+ }
+
+ .nav__link:first-child {
+     margin-left: 0;
+ }
+
+ .nav__link:hover {
+     opacity: 1;
+    
+ }
+
+ /* Intro
+===================*/
+ .intro {
+     display:flex;
+     flex-direction: column;
+     height: 750px;
+     padding-top: 100px;
+     justify-content: center;
+
+     background: #5f6277 
+     url("intro-bg.jpg") no-repeat center;
+     background-blend-mode: multiply;
+background-color: #6b7075;
+background-size: cover;
+text-align: center;
+color: #fff;
+font-size: 3em;
+ 
+ }
+.intro__inner {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+
+    text-align: center;
+}
+ /*.intro__title {
+     margin: 0 0 30px;
+
+     font-family: 'Open Sens', sans-serif;
+     font-size: 65px;
+     line-height: 1.1;
+     color: #fff;
+     font-weight: 700;
+     text-transform: uppercase;
+    
+ }*/
+
+ .intro_subtitle {
+     margin-bottom: 60px;
+     font-size: 22px;
+     color: #fff;
+     line-height: 1.5;
+     font-weight: 400;
+ }
+
+ /* Button
+===================*/
+ .btn {
+     display: inline-block;
+     vertical-align: top;
+     padding: 14px 40px;
+     border-radius: 2px;
+     border: 0;
+     cursor: pointer;
+     font-family: 'Raleway', sans-serif;
+     font-size: 13px;
+     color: #fff;
+     font-weight: 600;
+     text-transform: uppercase;
+     text-decoration: none;
+
+     transition: background .1s linear;
+
+ }
+
+ .btn--red {
+     background-color: #e84545;
+ }
+ .btn--red:hover {
+     background-color: #dd3434;
+ }
+
+ /* Country
+ ===================*/
+ .country {
+     display: flex;
+     flex-wrap: wrap;
+     margin: 95px 0;
+ }
+ .country__item {
+     width: 33.33333%;
+     padding: 0 40px;
+     margin: 25px 0;
+
+     text-align: center;
+ }
+
+ .country__icon {
+     margin-bottom: 25px;
+ }
+
+ .country__title {
+     margin-bottom: 20px;
+
+     font-size: 14px;
+     color: #2d3033;
+     font-weight: 700;
+     text-transform: uppercase;
+ }
+
+ .country__text {
+     font-size: 14px;
+     line-height: 1.5;
+     color: #6c7279;
+ }
+ 
+  /* Routes
+ ===================*/
+ .routes {
+     overflow: hidden;
+     background-color: #53354a;
+     
+ }
+ 
+ .routes__item {
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .routes__photo {
+    
+     height: 500px;
+     position: relative;
+ }
+
+ .routes__content {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     /*width: 50%;
+     padding-left: 80px;*/
+ }
+
+.routes__text {
+    margin-bottom: 25px;
+    font-family:Georgia, sans-serif;
+    font-style: italic;
+    font-size: 26px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+
+.reviews_a
+ {
+    overflow: hidden;
+    background-color: #416a6b;
+ }
+
+  
+    /* Основные свойства кнопки «Закрыть» */
+   
+    #zatemnenie {
+        background: rgba(0, 0, 0, .5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 10;
+        padding: 0;
+        margin: 0;
+        display: none;
+      }
+      #intro_title {
+     margin: 0 0 30px;
+     font-family: 'Open Sens', sans-serif;
+     font-size: 65px;
+     line-height: 1.1;
+     color: #fff;
+     font-weight: 700;
+     text-transform: uppercase;
+      }
+      #okno {
+        width: 700px;
+        height: 500px;
+        text-align: center;
+        padding: 5px;
+        border: 3px solid #f35e23;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        color: #0f0704;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        background: #fff;
+        font-size: 15px;
+        line-height: 2;
+      }
+      #zatemnenie:target {display: block;}
+      .close {
+        display: inline-block;
+        border: 1px solid #b43f11;
+        color: #b43f11;
+        padding: 0 0px;
+        margin: 0px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 12pt;
+        cursor:pointer;
+      }
+      .close:hover {background: #e6e6ff;}
+
+      .okno__title {
+        margin-bottom: 10px;
+   
+        font-size: 14px;
+        color: #5e1d09;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    
+/* footer */
+footer{
+    width: 100%;
+    float: left;
+    padding: 1%;
+    background-color: #fafafa;
+    border-top: 2px solid silver;
+    margin-top: 10px;
+    padding-bottom: 2%;
+}
+footer img{ width: 10%;float: left; margin-right: 5px}; 
+#page-wrap:after {
+    content: "";
+    display: block;
+}
+footer, #page-wrap:after {height: 12px}
+#page-wrap{
+    min-height: 93%;
+    margin-bottom: -10px;
+}
+footer #social img{
+    width: 35px;
+    height: 35px;
+    float:left;
+    margin-right: 10px;
+}
+footer #rights {
+    float: right;
+    width: 50%;
+    text-align: right;
+    font-size: 1.1em;
+}
