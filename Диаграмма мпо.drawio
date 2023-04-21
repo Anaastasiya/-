@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T20:23:03.445Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="NlsaRwZna3-T6C7pPMGS" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-21T21:17:35.465Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="zloMhXRtnwFdU6TgJ_gI" version="21.2.1" type="github">
   <diagram id="97Nrrohps93HSM1ZIezM" name="Страница 1">
     <mxGraphModel dx="1707" dy="2790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -479,10 +479,10 @@
             <mxPoint x="-190" y="-1405" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SLdw_Qt_2U2dr2Fla-PA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.847;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dVZdwRiWKrXidJ7NRsSz-207" target="SLdw_Qt_2U2dr2Fla-PA-2">
+        <mxCell id="SLdw_Qt_2U2dr2Fla-PA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.88;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dVZdwRiWKrXidJ7NRsSz-207" target="SLdw_Qt_2U2dr2Fla-PA-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-213" y="-1375" />
+              <mxPoint x="-208" y="-1375" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -490,7 +490,7 @@
           <mxGeometry x="-190" y="-1429" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SLdw_Qt_2U2dr2Fla-PA-11" value="p_arrival" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="-1399" width="70" height="30" as="geometry" />
+          <mxGeometry x="-175" y="-1399" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dVZdwRiWKrXidJ7NRsSz-221" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=open;startFill=0;startSize=6;endArrow=diamondThin;endFill=1;endSize=13;entryX=0.293;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="dVZdwRiWKrXidJ7NRsSz-209">
           <mxGeometry relative="1" as="geometry">
@@ -505,7 +505,7 @@
         <mxCell id="SLdw_Qt_2U2dr2Fla-PA-4" value="route&lt;br&gt;waypoints" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-135" y="-1240" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SLdw_Qt_2U2dr2Fla-PA-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SLdw_Qt_2U2dr2Fla-PA-2" target="dVZdwRiWKrXidJ7NRsSz-196">
+        <mxCell id="SLdw_Qt_2U2dr2Fla-PA-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="SLdw_Qt_2U2dr2Fla-PA-2" target="dVZdwRiWKrXidJ7NRsSz-196">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-340" y="-1345" as="sourcePoint" />
             <Array as="points">
@@ -515,7 +515,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SLdw_Qt_2U2dr2Fla-PA-24" value="waypoint" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="-1320" width="70" height="30" as="geometry" />
+          <mxGeometry x="-370" y="-1330" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
